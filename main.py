@@ -7,14 +7,11 @@ import string
 import zipfile
 import shutil
 
-plugin = dict(root="plugin")
-
 app = Client(
     name="Privet_Downloader",
     api_id=123,
     api_hash="",
     phone_number="",
-    plugins=plugin,
     device_model="Iphone 15 ProMax"
 )
 
